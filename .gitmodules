@@ -1,0 +1,3 @@
+[submodule "Packages/omiya-games-embed-webgl-template"]
+	path = Packages/omiya-games-embed-webgl-template
+	url = git@github.com:OmiyaGames/omiya-games-embed-webgl-template.git
