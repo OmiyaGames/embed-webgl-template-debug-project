@@ -34,6 +34,14 @@
       },
       "url": "https://package.openupm.com"
     },
+    "com.omiyagames.embedwebgltemplate": {
+      "version": "file:omiya-games-embed-webgl-template",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0"
+      }
+    },
     "com.omiyagames.global": {
       "version": "0.1.2-preview.1",
       "depth": 1,
