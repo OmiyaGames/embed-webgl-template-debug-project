@@ -90,6 +90,7 @@ crashlytics-build.properties
 # Begin ignoring of other files
 .~lock.*
 /.vs/*
+/.vscode/*
 *_backup
 *_backup.meta
 *.~*#*
@@ -99,3 +100,4 @@ obj
 obj.meta
 /Documentation~/api/*
 /Documentation~/manual/changelog.*
+/UserSettings/*
