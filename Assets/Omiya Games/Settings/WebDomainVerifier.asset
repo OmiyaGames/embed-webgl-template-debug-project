@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b225e1214f99b5f47b0ec055ffe740b4, type: 3}
   m_Name: WebDomainVerifier
   m_EditorClassIdentifier: 
-  domainMustContain: []
+  domainMustContain:
+  - localhost
   downloadRemoteDomainList: 1
   remoteDomainListUrl: TemplateData/domains
-  domainDecrypter: {fileID: 0}
+  domainDecrypter: {fileID: 11400000, guid: be00cc38661a94e7c9b56d097bac2389, type: 2}
   forceRedirectIfDomainDoesntMatch: 1
   redirectURL: https://
