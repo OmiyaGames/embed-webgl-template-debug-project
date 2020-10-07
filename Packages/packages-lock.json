@@ -1,5 +1,72 @@
 {
   "dependencies": {
+    "com.omiyagames.builds": {
+      "version": "0.1.1-preview.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "io.github.icsharpcode.sharpziplib": "1.2.0",
+        "com.omiyagames.common": "0.2.0-preview.1",
+        "com.omiyagames.cryptography": "0.3.0-preview.2",
+        "com.omiyagames.global": "0.1.2-preview.1",
+        "com.omiyagames.web": "0.3.0-preview.2",
+        "com.omiyagames.web.security": "0.2.0-preview.2"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.common": {
+      "version": "0.2.0-preview.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.cryptography": {
+      "version": "0.3.0-preview.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "0.2.0-preview.1"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.global": {
+      "version": "0.1.2-preview.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "0.2.0-preview.1",
+        "com.omiyagames.web": "0.3.0-preview.2"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.web": {
+      "version": "0.3.0-preview.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "0.2.0-preview.1"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "com.omiyagames.web.security": {
+      "version": "0.2.0-preview.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.0",
+        "com.omiyagames.common": "0.2.0-preview.1",
+        "com.omiyagames.global": "0.1.2-preview.1",
+        "com.omiyagames.cryptography": "0.3.0-preview.2"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.unity.2d.animation": {
       "version": "4.2.5",
       "depth": 0,
@@ -142,6 +209,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "io.github.icsharpcode.sharpziplib": {
+      "version": "1.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
