@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8748572754752532029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3a574855b962e43bcd4753f367c956, type: 3}
+  m_Name: Omiya Games
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: 11400000}
+  fileName:
+    names:
+    - type: 0
+      text: omiya-games-
+    - type: 5
+      text: omiya-games-
+    asSlug: 0
+  folderName:
+    names:
+    - type: 2
+      text: 
+    - type: 0
+      text: ' v'
+    - type: 5
+      text: 
+    asSlug: 0
+  buildNumber: 1
+  enableStrictMode: 0
+  enableAssertions: 0
+  customScenes:
+    enable: 0
+    customValue: []
+  debugSettings:
+    enable: 0
+    enableDebuggingScripts: 1
+    buildScriptsOnly: 0
+  archiveSettings:
+    enable: 0
+    type: 0
+    fileName:
+      names:
+      - type: 1
+        text: 
+      - type: 0
+        text: ' v'
+      - type: 5
+        text: 
+      - type: 0
+        text: ' ('
+      - type: 2
+        text: 
+      - type: 0
+        text: ).zip
+      asSlug: 0
+  customScriptDefineSymbols:
+    enable: 0
+    customValue: 
+  templatePath: PROJECT:Omiya Games
+  hostSpecificArchiveSettings:
+  - {fileID: -3114817428719601618}
+--- !u!114 &-8639634113991759376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59be3fe3d8a02549b4e1d4009543b12, type: 3}
+  m_Name: Unity - Itch.io
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: -2307141614364064533}
+  archiveSettings:
+    enable: 1
+    type: 0
+    fileName:
+      names:
+      - type: 0
+        text: unity-itch-
+      - type: 5
+        text: 
+      - type: 0
+        text: .zip
+      asSlug: 1
+  includeIndexHtml: 1
+  webDomainVerifier: {fileID: 11400000, guid: b564b6a2063e04b42ae1407bf380cbf1, type: 2}
+  localDomainListPath: domains
+  acceptedDomains:
+  - itch.io
+  - '*.itch.io'
+  - ssl.hwcdn.net
+  - '*.ssl.hwcdn.net'
+--- !u!114 &-3114817428719601618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59be3fe3d8a02549b4e1d4009543b12, type: 3}
+  m_Name: Omiya Games - Itch.io
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: -8748572754752532029}
+  archiveSettings:
+    enable: 1
+    type: 0
+    fileName:
+      names:
+      - type: 0
+        text: omiya-games-itch-
+      - type: 5
+        text: 
+      - type: 0
+        text: .zip
+      asSlug: 1
+  includeIndexHtml: 1
+  webDomainVerifier: {fileID: 11400000, guid: b564b6a2063e04b42ae1407bf380cbf1, type: 2}
+  localDomainListPath: domains
+  acceptedDomains:
+  - itch.io
+  - '*.itch.io'
+  - ssl.hwcdn.net
+  - '*.ssl.hwcdn.net'
+--- !u!114 &-2307141614364064533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3a574855b962e43bcd4753f367c956, type: 3}
+  m_Name: Unity
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: 11400000}
+  fileName:
+    names:
+    - type: 0
+      text: unity-
+    - type: 5
+      text: 
+    asSlug: 0
+  folderName:
+    names:
+    - type: 2
+      text: 
+    - type: 0
+      text: ' v'
+    - type: 5
+      text: 
+    asSlug: 0
+  buildNumber: 0
+  enableStrictMode: 0
+  enableAssertions: 0
+  customScenes:
+    enable: 0
+    customValue: []
+  debugSettings:
+    enable: 0
+    enableDebuggingScripts: 1
+    buildScriptsOnly: 0
+  archiveSettings:
+    enable: 0
+    type: 0
+    fileName:
+      names:
+      - type: 1
+        text: 
+      - type: 0
+        text: ' v'
+      - type: 5
+        text: 
+      - type: 0
+        text: ' ('
+      - type: 2
+        text: 
+      - type: 0
+        text: ).zip
+      asSlug: 0
+  customScriptDefineSymbols:
+    enable: 0
+    customValue: 
+  templatePath: PROJECT:Unity Default
+  hostSpecificArchiveSettings:
+  - {fileID: -8639634113991759376}
+--- !u!114 &-400347486026699659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3a574855b962e43bcd4753f367c956, type: 3}
+  m_Name: Embed
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: 11400000}
+  fileName:
+    names:
+    - type: 0
+      text: embed-
+    - type: 5
+      text: embed-
+    asSlug: 0
+  folderName:
+    names:
+    - type: 2
+      text: 
+    - type: 0
+      text: ' v'
+    - type: 5
+      text: 
+    asSlug: 0
+  buildNumber: 0
+  enableStrictMode: 0
+  enableAssertions: 0
+  customScenes:
+    enable: 0
+    customValue: []
+  debugSettings:
+    enable: 0
+    enableDebuggingScripts: 1
+    buildScriptsOnly: 0
+  archiveSettings:
+    enable: 0
+    type: 0
+    fileName:
+      names:
+      - type: 1
+        text: 
+      - type: 0
+        text: ' v'
+      - type: 5
+        text: 
+      - type: 0
+        text: ' ('
+      - type: 2
+        text: 
+      - type: 0
+        text: ).zip
+      asSlug: 0
+  customScriptDefineSymbols:
+    enable: 0
+    customValue: 
+  templatePath: PROJECT:Embed
+  hostSpecificArchiveSettings:
+  - {fileID: 6113021521299108741}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b371f27b6856fc24e8698e03c3e7fec1, type: 3}
+  m_Name: Build
+  m_EditorClassIdentifier: 
+  rootBuildFolder: Builds~
+  newBuildFolderName:
+    names:
+    - type: 3
+      text: yyyy.MM.dd-HH.mm
+    asSlug: 0
+  onBuildFailed: 0
+  onBuildCancelled: 0
+  allSettings:
+  - {fileID: -400347486026699659}
+  - {fileID: -8748572754752532029}
+  - {fileID: -2307141614364064533}
+--- !u!114 &6113021521299108741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59be3fe3d8a02549b4e1d4009543b12, type: 3}
+  m_Name: Embed - Itch.io
+  m_EditorClassIdentifier: 
+  parentSetting: {fileID: -400347486026699659}
+  archiveSettings:
+    enable: 1
+    type: 0
+    fileName:
+      names:
+      - type: 0
+        text: embed-itch-
+      - type: 5
+        text: 
+      - type: 0
+        text: .zip
+      asSlug: 1
+  includeIndexHtml: 1
+  webDomainVerifier: {fileID: 11400000, guid: b564b6a2063e04b42ae1407bf380cbf1, type: 2}
+  localDomainListPath: domains
+  acceptedDomains:
+  - itch.io
+  - '*.itch.io'
+  - ssl.hwcdn.net
+  - '*.ssl.hwcdn.net'
